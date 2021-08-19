@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.810.7
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pil-backend-darwoft", "pil-backend-darwoft\pil-backend-darwoft.csproj", "{0FFBA7E5-ADDB-4D3F-BF7A-36D81A5E267E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0FFBA7E5-ADDB-4D3F-BF7A-36D81A5E267E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FFBA7E5-ADDB-4D3F-BF7A-36D81A5E267E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FFBA7E5-ADDB-4D3F-BF7A-36D81A5E267E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FFBA7E5-ADDB-4D3F-BF7A-36D81A5E267E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CD2088AB-98F1-4E75-8D20-F520858253EE}
+	EndGlobalSection
+EndGlobal
