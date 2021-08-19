@@ -6,6 +6,6 @@ namespace pil_backend_darwoft.Services
 {
     public interface IUserRepository
     {
-        IEnumerable<User> GetUser(int userId);
+        User GetUser(int userId);
     }
 }

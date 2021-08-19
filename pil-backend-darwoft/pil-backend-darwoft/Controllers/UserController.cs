@@ -14,9 +14,9 @@ namespace pil_backend_darwoft.Controllers
     {
         private readonly IUserRepository _userRepository;
 
-        public UserController(IUserRepository surveyRepository)
+        public UserController(IUserRepository userRepository)
         {
-            _userRepository = surveyRepository ?? throw new ArgumentNullException(nameof(surveyRepository));
+            _userRepository = userRepository ?? throw new ArgumentNullException(nameof(userRepository));
         }
 
         [HttpGet]

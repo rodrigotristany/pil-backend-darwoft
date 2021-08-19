@@ -15,10 +15,10 @@ namespace pil_backend_darwoft.Services
             _context = context ?? throw new ArgumentNullException(nameof(context));
         }
 
-        public IEnumerable<User> GetUser(int userId)
+        public User GetUser(int userId)
         {
             return _context.Users
-                .Where(u => u.Id == userId);
+                .FirstOrDefault(u => u.Id == userId);
         }
     }
 }
