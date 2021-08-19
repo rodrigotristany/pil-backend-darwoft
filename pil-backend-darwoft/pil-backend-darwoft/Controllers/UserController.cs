@@ -29,5 +29,11 @@ namespace pil_backend_darwoft.Controllers
             }
             return Ok(user);
         }
+
+        [HttpDelete]
+        public IActionResult DeleteUser(int userId)
+        {
+            return Ok(null);
+        }
     }
 }
